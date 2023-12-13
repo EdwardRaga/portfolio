@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.profile h1,
+.profile h2 {
+  color: var(--secondary-color);
+}
+
+.profile h1 {
+  font-size: 36px;
+}
+
+.profile h2 {
+  font-size: 18px;
+}
+
+.profile p {
+  color: var(--primary-color);
+}
+
+.nav {
+  display: none;
+}
+
+.profile h2 {
+  margin-top: 12px;
+}
+
+.profile p {
+  margin-top: 16px;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.socials .icon {
+  color: var(--primary-color);
+  width: 25px;
+}
+.socials .icon:hover {
+  color: var(--secondary-color);
+}
+
+@media (min-width: 640px) {
+  .profile h1 {
+    color: var(--secondary-color);
+    font-size: 48px;
+  }
+  .profile h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+  }
+
+  .profile p {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-width: 50%;
+    overflow: hidden;
+    padding: 6rem 0;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+
+  .container > div:first-child {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .profile,
+  .socials {
+    max-width: 80%;
+  }
+  .profile h1 {
+    color: var(--secondary-color);
+    font-size: 48px;
+  }
+  .profile h2 {
+    font-size: 20px;
+  }
+  .profile p {
+    width: inherit;
+  }
+}

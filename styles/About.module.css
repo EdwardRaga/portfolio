@@ -1,0 +1,38 @@
+.container {
+}
+
+.heading {
+  margin-bottom: 2rem;
+  position: sticky;
+  top: 0;
+}
+
+.heading h2 {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-heading);
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.paragraphs p {
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 500px;
+   
+  }
+  .heading {
+    margin: 0;
+  }
+  .heading h2 {
+    display: none;
+  }
+}

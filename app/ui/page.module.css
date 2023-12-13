@@ -1,0 +1,50 @@
+.container {
+  padding: 48px 24px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.main {
+  margin-top: 6.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5rem;
+}
+
+.main h2 {
+  font-size: 14px;
+}
+
+@media (min-width: 640px) {
+  .profile h1 {
+    color: var(--secondary-color);
+    font-size: 48px;
+  }
+  .profile h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+  }
+
+  .profile p {
+    max-width: 60%;
+  }
+}
+
+@media (width >= 1024px) {
+  .container {
+    display: flex;
+    padding: 0 96px;
+  }
+
+  .main {
+    margin-top: inherit;
+    padding: 96px 0 !important;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0;
+  }
+}

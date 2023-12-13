@@ -1,0 +1,123 @@
+.container {
+  /* margin-top: 2rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: var(--secondary-color);
+}
+
+.project p {
+  font-size: 14px !important;
+  line-height: 21px;
+  font-weight: 100 !important;
+}
+
+.projects-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.projects-container ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 24px 0;
+  justify-content: space-around;
+}
+
+.project {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.2rem;
+}
+
+.container .allprojects a {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--text-size-paragraph);
+  font-weight: var(--text-weight-bold);
+  height: 1rem;
+}
+
+.container .allprojects a span:hover {
+  border-bottom: 1px solid #5eead4;
+}
+
+.heading h2 {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-heading);
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.projects-container a h3 {
+  color: var(--secondary-color);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects-container p {
+  color: var(--primary-color);
+  font-size: var(--text-size-paragraph);
+}
+
+.image img {
+  border-radius: 0.1rem;
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 120px;
+}
+
+@media (min-width: 640px) {
+ 
+  .projects-container ul li {
+    flex-direction: row-reverse;
+    column-gap: 2rem;
+  }
+
+  .image img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 150px;
+    border-radius: 0.1rem;
+  }
+  .projects-container ul {
+    gap: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    gap: 0;
+    padding: 96px 0 0;
+  }
+  .project {
+    width: 100%;
+  }
+  .projects-container ul {
+    gap: 0;
+  }
+  .projects-container ul li {
+    flex-direction: row-reverse;
+    margin-bottom: 2rem;
+    padding: inherit;
+  }
+  .heading h2 {
+    display: none;
+  }
+
+  .image img {
+    border-radius: 0.1rem;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 70px;
+  }
+}

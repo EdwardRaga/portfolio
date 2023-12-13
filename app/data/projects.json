@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ecommerce de Productos",
+    "description": "Esta aplicación permite a los usuarios comprar y vender productos de segunda mano. Incluye funciones como autenticación de usuarios, búsqueda, filtrado combinado y más.",
+    "image": "/repo-card.webp",
+    "url": "https://github.com/CodeFusionPF/pacto"
+  },
+  {
+    "name": "Showcasegames",
+    "description": "Esta aplicación permite a los usuarios buscar, filtrar y ordenar videojuegos. traidos de la api de RAWG",
+    "image": "/showcasegames-card.png",
+    "url": "https://showcasegames-3ffeaceg9-edwardraga.vercel.app/home"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "date": "Ene — May 2023",
+    "company": "Desarrollador H2H",
+    "responsibility": "Trabaje en el equipo de backend para implementar las funciones principales de compra de productos en H2H, incluida la creación de productos, la gestión de detalles de pedidos y la funcionalidad para agregar productos al carrito de compras",
+    "technologies": [
+      "Next.js",
+      "Bootstrap",
+      "JavaScript",
+      "Redux",
+      "Node.js",
+      "Express",
+      "Mongodb"
+    ]
+  }
+]
